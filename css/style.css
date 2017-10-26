@@ -128,9 +128,9 @@ li {
 }
 
 .about section {
-    column-count: 2;
-    column-gap: 320px;
     padding-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .about p {
@@ -146,7 +146,7 @@ li {
     font-size: 1.4em;
     line-height: 100%;
     font-style: italic;
-    margin: 50px 10px;
+    margin: 5px 20px;
     padding: 10px 0;
 }
 
