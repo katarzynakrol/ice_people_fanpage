@@ -59,7 +59,7 @@
         border: none;
     }
     .about section {
-        column-count: auto;
+        display: block;
     }
     .about p {
         width: auto;
@@ -121,7 +121,7 @@
         width: auto;
     }
     .about section {
-        column-count: auto;
+        display: block;
     }
     .about p {
         width: auto;
@@ -193,7 +193,7 @@
         width: auto;
     }
     .about section {
-        column-count: auto;
+        display: block;
     }
     .about p {
         width: auto;
@@ -265,7 +265,7 @@
         width: auto;
     }
     .about section {
-        column-count: auto;
+        display: block;
     }
     .about p {
         width: auto;
@@ -350,7 +350,7 @@
         width: auto;
     }
     .about section {
-        column-count: auto;
+        display: block;
     }
     .about p {
         width: auto;
@@ -429,7 +429,7 @@
         width: auto;
     }
     .about section {
-        column-count: auto;
+        display: block;
     }
     .about p {
         width: auto;
@@ -492,7 +492,7 @@
         width: auto;
     }
     .about section {
-        column-count: auto;
+        display: block;
     }
     .about p {
         width: auto;
@@ -548,7 +548,7 @@
         width: auto;
     }
     .about section {
-        column-count: auto;
+        display: block;
     }
     .about p {
         width: auto;
@@ -604,7 +604,7 @@
         width: auto;
     }
     .about section {
-        column-count: auto;
+        display: block;
     }
     .about p {
         width: auto;
@@ -660,7 +660,7 @@
         width: auto;
     }
     .about section {
-        column-count: auto;
+        display: block;
     }
     .about p {
         width: auto;

@@ -18,7 +18,6 @@ function scrollToTop() {
 }
 document.addEventListener('scroll', scrollToTop);
 
-
 function scrollFunction() {
     var body = document.body.scrollTop;
     var documentElement = document.documentElement.scrollTop;
@@ -42,35 +41,11 @@ function scrollFunction() {
 
 }
 
-
 document.addEventListener('DOMContentLoaded', function () {
-    galleryLeft();
+    responsiveMenu();
+});
 
-}, false);
-
-function galleryLeft() {
-    var buttonPrev = document.getElementById('prev');
-    buttonPrev.onclick = function () {
-        document.getElementById('img').scrollLeft -= 170;
-    };
-}
-
-
-// document.addEventListener('DOMContentLoaded', function () {
-//     var buttonPrev = document.getElementById('prev');
-//     buttonPrev.onclick = function () {
-//         document.getElementById('img').scrollLeft -= 170;
-//     };
-// }, false);
-
-document.addEventListener('DOMContentLoaded', function () {
-    var buttonNext = document.getElementById('next');
-    buttonNext.onclick = function () {
-        document.getElementById('img').scrollLeft += 170;
-    };
-}, false);
-
-document.addEventListener('DOMContentLoaded', function () {
+function responsiveMenu() {
     var icon = document.getElementById('icon');
     var navbar = document.getElementById('topNavbar');
     icon.onclick = function () {
@@ -80,7 +55,18 @@ document.addEventListener('DOMContentLoaded', function () {
             navbar.className = 'navbar';
         }
     };
-});
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    var buttonPrev = document.getElementById('prev');
+    var buttonNext = document.getElementById('next');
+    buttonPrev.onclick = function () {
+        document.getElementById('img').scrollLeft -= 170;
+    };
+    buttonNext.onclick = function () {
+        document.getElementById('img').scrollLeft += 170;
+    };
+}, false);
 
 document.addEventListener('DOMContentLoaded', function () {
     var panel = document.getElementById('sidePanel');
