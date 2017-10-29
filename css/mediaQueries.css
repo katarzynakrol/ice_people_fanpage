@@ -27,9 +27,6 @@
         display: block;
         float: right;
     }
-    .navbar.responsive {
-        position: relative;
-    }
     .navbar.responsive #icon {
         position: absolute;
         right: 0;
@@ -181,6 +178,7 @@
 }
 
 @media only screen and (min-width: 320px) and (max-width: 400px) {
+    .navHeader,
     .navHeader img {
         width: 300px;
     }
@@ -253,6 +251,7 @@
 }
 
 @media only screen and (min-width: 400px) and (max-width: 480px) {
+    .navHeader,
     .navHeader img {
         width: 400px;
     }
@@ -338,6 +337,7 @@
 }
 
 @media only screen and (min-width: 480px) and (max-width: 600px) {
+    .navHeader,
     .navHeader img {
         width: 500px;
     }
@@ -417,6 +417,7 @@
 }
 
 @media only screen and (min-width: 600px) and (max-width: 640px) {
+    .navHeader,
     .navHeader img {
         width: 500px;
     }
