@@ -3,7 +3,7 @@ Strona poświęcona sadze o Ludziach Lodu
 
 Krótki opis 
 -------------------
-Strona została wykonana przeze mnie we wrześniu bieżączego roku (2017). Inspiracją strony jest lubiana i ceniona przeze mnie seria książek, która wyszła spod pióra norweskiej pisarki Margit Sandemo, czyli Saga o Ludziach Lodu. 
+Strona została wykonana przeze mnie we wrześniu bieżącego roku (2017). Inspiracją strony jest lubiana i ceniona przeze mnie seria książek, która wyszła spod pióra norweskiej pisarki Margit Sandemo, czyli Saga o Ludziach Lodu. 
 
 Użyte technologie 
 --------------------
