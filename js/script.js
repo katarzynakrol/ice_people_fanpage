@@ -34,7 +34,7 @@ function scrollFunction() {
     if ((body > 750 || documentElement > 750) && quotes.getAttribute('class') != 'quotes animationEffect') {
         quotes.className += ' animationEffect';
     }
-    if ((body > 1300 || documentElement > 1300) && author.getAttribute('class') != 'authorSection animationEffect') {
+    if ((body > 1000 || documentElement > 1000) && author.getAttribute('class') != 'authorSection animationEffect') {
         window.onscroll = null;
         author.className += ' animationEffect';
     }
@@ -49,10 +49,10 @@ function responsiveMenu() {
     var icon = document.getElementById('icon');
     var navbar = document.getElementById('topNavbar');
     icon.onclick = function () {
-        if (navbar.className === 'navbar') {
-            navbar.className += ' responsive';
+        if (navbar.classList.contains('responsive') === false) {
+            navbar.classList.add('responsive');
         } else {
-            navbar.className = 'navbar';
+            navbar.classList.remove('responsive');
         }
     };
 }
